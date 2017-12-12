@@ -1,0 +1,16 @@
+{% extends 'website/base.html' %}
+{% block main_content %}
+    <!--<h1 class="page-header">Virus Identification On Site</h1>
+    <p class="lead">See the example of identifying the virus from NGS raw data.</p>-->
+    <div class="jumbotron">
+        <h1 style="color: skyblue;">Virus Identification On Site</h1>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Our NGS analysis platform is named VIOS, short for Virus Identification On Site.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;You can analysis NGS data with FASTQ format from sequencing instrument like Illumina series and Ion torrent.You can achieve to identify viruses by mining the NGS query dataset...</p>
+
+        <div style="text-align: right;">
+        	<p><a class="btn btn-primary btn-lg" href="{% url 'website:vios_intro' %}" role="button">Learn more</a></p>
+        </div>
+    </div>
+
+
+{% endblock %}

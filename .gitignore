@@ -1,0 +1,4 @@
+## Python:
+*.pyc
+.1.0/softwares/
+.1.0/database/
